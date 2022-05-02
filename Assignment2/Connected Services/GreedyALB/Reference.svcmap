@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ce120387-e4be-4d09-bbcb-219281e394f6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://alb-617382799.us-east-1.elb.amazonaws.com/GreedyWCFS/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="a106b7e1-a57c-470c-87a2-e04f7b4781eb" SourceId="1" SourceUrl="http://alb-617382799.us-east-1.elb.amazonaws.com/GreedyWCFS/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="d1828131-a5d6-401f-8539-ca2211dc9e3b" SourceId="1" SourceUrl="http://alb-617382799.us-east-1.elb.amazonaws.com/GreedyWCFS/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="4e5ab25b-0979-4f9f-9888-42b460c7bda2" SourceId="1" SourceUrl="http://alb-617382799.us-east-1.elb.amazonaws.com/GreedyWCFS/Service.svc?wsdl" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="e2927a37-c4a7-4abf-80bf-f2fd7c6132cd" SourceId="1" SourceUrl="http://alb-617382799.us-east-1.elb.amazonaws.com/GreedyWCFS/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="96e9fb5e-e4a5-4a7c-80f6-4f566b6b15fa" SourceId="1" SourceUrl="http://alb-617382799.us-east-1.elb.amazonaws.com/GreedyWCFS/Service.svc?disco" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="752f1684-ca84-4997-93b9-d985f4bbdec1" SourceId="1" SourceUrl="http://alb-617382799.us-east-1.elb.amazonaws.com/GreedyWCFS/Service.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
